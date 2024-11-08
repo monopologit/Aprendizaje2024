@@ -1,10 +1,11 @@
 # La Industria de Tierra del Fuego
+# Análisis y Predicción en la Industria de Tierra del Fuego
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Industria Fueguina
+Industria Fueguina... Un análisis es crucial para la economía de Tierra del Fuego.
 
 ## Project Organization
 
