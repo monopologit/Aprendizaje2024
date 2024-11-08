@@ -7,7 +7,7 @@
 
 Industria Fueguina... Un análisis crucial para la economía de Tierra del Fuego.
 
-## Project Organization
+## Organización del Proyecto
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
