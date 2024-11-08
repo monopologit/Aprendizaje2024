@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Industria Fueguina... Un análisis es crucial para la economía de Tierra del Fuego.
+Industria Fueguina... Un análisis crucial para la economía de Tierra del Fuego.
 
 ## Project Organization
 
