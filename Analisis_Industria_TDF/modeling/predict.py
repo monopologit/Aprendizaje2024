@@ -1,30 +1,35 @@
-from pathlib import Path
+# predict.py
 
-import typer
-from loguru import logger
-from tqdm import tqdm
+import pandas as pd
+import joblib
 
-from Analisis_Industria_TDF.config import MODELS_DIR, PROCESSED_DATA_DIR
+# Cargar el modelo y el imputador
+model = joblib.load('path_to_save_model/random_forest_model.pkl')
+imputer = joblib.load('path_to_save_model/imputer.pkl')
 
-app = typer.Typer()
+# Función para predecir usando el modelo
+def predecir(data):
+    # Convertir a DataFrame
+    df = pd.DataFrame(data)
+    
+    # Aplicar imputador
+    data_imputed = imputer.transform(df)
+    
+    # Hacer predicciones
+    predicciones = model.predict(data_imputed)
+    
+    return predicciones
 
+# Ejemplo de datos para predecir
+nuevos_datos = {
+    'Confeccionistas': [100, 150, 200],
+    'Electrónicas': [120, 130, 140],
+    'Plásticas': [80, 90, 100],
+    'Textiles': [50, 60, 70],
+    'Pesqueras': [30, 40, 50],
+    'Otras': [20, 25, 30]
+}
 
-@app.command()
-def main(
-    # ---- REPLACE DEFAULT PATHS AS APPROPRIATE ----
-    features_path: Path = PROCESSED_DATA_DIR / "test_features.csv",
-    model_path: Path = MODELS_DIR / "model.pkl",
-    predictions_path: Path = PROCESSED_DATA_DIR / "test_predictions.csv",
-    # -----------------------------------------
-):
-    # ---- REPLACE THIS WITH YOUR OWN CODE ----
-    logger.info("Performing inference for model...")
-    for i in tqdm(range(10), total=10):
-        if i == 5:
-            logger.info("Something happened for iteration 5.")
-    logger.success("Inference complete.")
-    # -----------------------------------------
-
-
-if __name__ == "__main__":
-    app()
+# Predecir usando el modelo
+predicciones = predecir(nuevos_datos)
+print("Predicciones:", predicciones)
