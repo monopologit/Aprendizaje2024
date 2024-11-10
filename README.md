@@ -111,3 +111,13 @@ Puedes encontrar más detalles sobre el proyecto en la carpeta docs. Esta carpet
 - El modelo de aprendizaje automatico elegido es: Modelo de Ridge con Hiperparámetros Ajustados
 - En "doc" y "report" se encuentran los informes con muchos detalles al respecto.
 - El archivo es: 2_0_TDF_Industria_Aprendizaje.ipynb   lo vas a encontrar en "notebook" y en "models"
+
+## Cumplimiento final de nuestros objetivos:
+### 1. Predicción de la Demanda de Personal en los Establecimientos Industriales
+Modelo de Ridge con Hiperparámetros Ajustados: Hemos desarrollado y entrenado un modelo de Ridge, que ha demostrado ser altamente preciso con un R² casi perfecto. Este modelo permite predecir la cantidad de personal requerido en los establecimientos industriales.
+
+### 2. Identificación de Factores que Influyen en la Producción de Ciertos Productos
+Análisis Descriptivo y Exploratorio: A través de las estadísticas descriptivas y las visualizaciones, hemos identificado las tendencias y los factores clave que influyen en la producción industrial. Esto incluye el análisis de la cantidad de personal en diferentes sectores y su relación con la producción de productos específicos.
+
+### 3. Clasificación de los Establecimientos Según su Eficiencia Productiva
+Análisis Comparativo: Mediante el análisis de los datos de establecimientos industriales, hemos podido clasificar los establecimientos según su eficiencia productiva, observando la correlación entre el número de personal y la producción.
