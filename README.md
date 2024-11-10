@@ -12,6 +12,9 @@
 
 Este proyecto aplica técnicas de Aprendizaje Automático para analizar datos relacionados con la industria en la provincia de Tierra del Fuego. El objetivo principal es predecir la demanda de personal en los establecimientos industriales, identificar factores que influyen en la producción de ciertos productos y clasificar los establecimientos según su eficiencia productiva. El análisis de estos datos puede proporcionar información valiosa para mejorar la eficiencia y la productividad en los sectores industriales locales
 
+## Fuente de los datasets: 
+https://ipiec.tierradelfuego.gob.ar/estadisticas-economicas-2/
+
 ## Organización del Proyecto
 
 ```
