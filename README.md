@@ -105,3 +105,8 @@ Los scripts de modelado están ubicados en la carpeta Analisis_Industria_TDF/mod
 
 ## Documentación
 Puedes encontrar más detalles sobre el proyecto en la carpeta docs. Esta carpeta incluye todo el material explicativo adicional.
+
+## MODELO SELECCIONADO
+- El modelo de aprendizaje automatico elegido es: Modelo de Ridge con Hiperparámetros Ajustados
+- En "doc" y "report" se encuentran los informes con muchos detalles al respecto.
+- El archivo es: 2_0_TDF_Industria_Aprendizaje.ipynb   lo vas a encontrar en "notebook" y en "models"
