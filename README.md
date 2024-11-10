@@ -125,3 +125,6 @@ Análisis Descriptivo y Exploratorio: A través de las estadísticas descriptiva
 
 ### 3. Clasificación de los Establecimientos Según su Eficiencia Productiva
 Análisis Comparativo: Mediante el análisis de los datos de establecimientos industriales, hemos podido clasificar los establecimientos según su eficiencia productiva, observando la correlación entre el número de personal y la producción.
+
+### ¿Quién soy?
+Soy Carlos Alberto Gongora, estudiante de la carrera de Ciencia de Datos e IA en el Centro Politécnico Superior Malvinas Argentinas en la ciudad de Rio Grande en la Provincia de Tierra del Fuego. Actualmente cursando y presentando este proyecto para la materia de Aprendizaje Automatico dictada por el Profesor Martín Maximiliano Mirabete.
