@@ -113,7 +113,7 @@ Se interpretan los resultados del modelo y se ofrecen conclusiones finales sobre
 
 ## MODELO SELECCIONADO
 - El modelo de aprendizaje automatico elegido es: Modelo de Ridge con Hiperparámetros Ajustados
-- En "doc" y "report" se encuentran los informes con muchos detalles al respecto.
+- En "docs" y "report" se encuentran los informes con muchos detalles al respecto.
 - El archivo es: 2_0_TDF_Industria_Aprendizaje.ipynb   lo vas a encontrar en "notebook" y en "models"
 
 ## Cumplimiento final de nuestros objetivos:
