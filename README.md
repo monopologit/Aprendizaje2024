@@ -114,6 +114,9 @@ Detalle del modelo de Aprendizaje Automático que ha desarrollado, incluyendo la
 Tambien se proporciona las métricas de evaluación del modelo, como precisión, recall, F1-score, y cualquier otra métrica relevante.
 Se interpretan los resultados del modelo y se ofrecen conclusiones finales sobre cómo el modelo abordó el problema formulado en la primera entrega.
 
+## VIDEO
+- En la carpeta "report" hay otra carpeta con el nombre "video" ahí vas a encontrar el link al video explicativo del proyecto.
+
 ## MODELO SELECCIONADO
 - El modelo de aprendizaje automatico elegido es: Modelo de Ridge con Hiperparámetros Ajustados
 - En "docs" y "report" se encuentran los informes con muchos detalles al respecto.
