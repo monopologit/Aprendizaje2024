@@ -81,7 +81,19 @@ Este proyecto utiliza datos del Instituto Provincial de Estadísticas y Censos (
 2. **Producción Industrial de los Principales Productos por Sector**
    - **Periodo**: Enero 2001 - Agosto 2024
    - **Características**: Año, Mes, Sector, Productos Específicos
-   - **Este dataset se transforma en 6 datasets.
+   - **Este dataset se transforma en 6 datasets:**
+        - Producción Industrial Confeccionista:
+            - Produccion_Industrial_Confeccionista.csv
+        - Producción Industrial Electrónica:
+            - Produccion_Industrial_Electronica.csv
+        - Producción Industrial Pesquera:
+            - Produccion_Industrial_Pesquera.csv
+        - Producción Industrial Textil:
+            - Produccion_Industrial_Textil.csv
+        - Producción Industrial Plástica:
+            - Produccion_Industrial_Plastica.csv
+        - Producción Industrial Otros:
+            - Produccion_Industrial_Otros.csv
 
 3. **Establecimientos Industriales del Sector Manufacturero por Rama de Actividad**
    - **Periodo**: Enero 2001 - Agosto 2024
