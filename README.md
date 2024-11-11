@@ -86,7 +86,7 @@ Este proyecto utiliza datos del Instituto Provincial de Estadísticas y Censos (
 3. **Establecimientos Industriales del Sector Manufacturero por Rama de Actividad**
    - **Periodo**: Enero 2001 - Agosto 2024
    - **Características**: Año, Mes, Confeccionistas, Electrónicas, Plásticas, Textiles, Pesqueras, Mecánicas, Otras, Total
-   - 
+
 ## Configuración del Entorno
 ### Requisitos Previos
 Asegúrate de tener instalado Python 3.x y pip.
