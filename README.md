@@ -12,8 +12,6 @@
 
 Este proyecto aplica técnicas de Aprendizaje Automático para analizar datos relacionados con la industria en la provincia de Tierra del Fuego. El objetivo principal es predecir la demanda de personal en los establecimientos industriales, identificar factores que influyen en la producción de ciertos productos y clasificar los establecimientos según su eficiencia productiva. El análisis de estos datos puede proporcionar información valiosa para mejorar la eficiencia y la productividad en los sectores industriales locales
 
-## Fuente de los datasets: 
-https://ipiec.tierradelfuego.gob.ar/estadisticas-economicas-2/
 
 ## Organización del Proyecto
 
@@ -69,6 +67,26 @@ https://ipiec.tierradelfuego.gob.ar/estadisticas-economicas-2/
 
 --------
 
+## Fuente de los datasets: 
+https://ipiec.tierradelfuego.gob.ar/estadisticas-economicas-2/
+
+## Orígenes de Datos
+
+Este proyecto utiliza datos del Instituto Provincial de Estadísticas y Censos (IPIEC) de Tierra del Fuego. A continuación se detallan los datasets:
+
+1. **Personal Activo en Establecimientos Industriales por Rama de Actividad**
+   - **Periodo**: Enero 2001 - Agosto 2024
+   - **Características**: Año, Mes, Confeccionistas, Electrónicas, Plásticas, Textiles, Pesqueras, Otras
+
+2. **Producción Industrial de los Principales Productos por Sector**
+   - **Periodo**: Enero 2001 - Agosto 2024
+   - **Características**: Año, Mes, Sector, Productos Específicos
+   - **Este dataset se transforma en 6 datasets.
+
+3. **Establecimientos Industriales del Sector Manufacturero por Rama de Actividad**
+   - **Periodo**: Enero 2001 - Agosto 2024
+   - **Características**: Año, Mes, Confeccionistas, Electrónicas, Plásticas, Textiles, Pesqueras, Mecánicas, Otras, Total
+   - 
 ## Configuración del Entorno
 ### Requisitos Previos
 Asegúrate de tener instalado Python 3.x y pip.
