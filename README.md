@@ -108,7 +108,7 @@ Los scripts de modelado están ubicados en la carpeta Analisis_Industria_TDF/mod
    python Analisis_Industria_TDF/modeling/predict.py
 
 ## Documentación
-- Puedes encontrar más detalles sobre el proyecto en la carpeta "docs". Esta carpeta incluye todo el material explicativo adicional.
+- Puedes encontrar más detalles sobre el proyecto en la carpeta "docs". Esta carpeta incluye todo el material explicativo adicional. Tambien la descripción de los orígenes de datos.
 - En la carpeta "report" vas a encontrar material en pdf sobre las conclusiones claves derivadas del análisis exploratorio.
 Detalle del modelo de Aprendizaje Automático que ha desarrollado, incluyendo la arquitectura, algoritmos utilizados, y ajuste de hiperparámetros.
 Tambien se proporciona las métricas de evaluación del modelo, como precisión, recall, F1-score, y cualquier otra métrica relevante.
